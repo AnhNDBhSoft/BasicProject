@@ -6,7 +6,7 @@ import {AppForm, AppFormField, SubmitBtn} from '../../components/Forms';
 import styles from './LoginScreen.Style'
 import { Header } from 'react-native-elements';
 
-const submit = useCallback(() => (null) ,[]);
+const submit = () => (null);
 
 function LoginScreen(props) {
     return(
