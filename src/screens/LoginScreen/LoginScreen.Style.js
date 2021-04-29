@@ -28,7 +28,6 @@ const styles = StyleSheet.create({
       alignItems: 'center'
     },
     registerText: {
-      fontFamily : 'Noto Sans TC',
       margin: 20,
       alignSelf: 'center',
       position:'absolute',
@@ -43,7 +42,6 @@ const styles = StyleSheet.create({
     },
     linkFooter: {
       color: '#F48120',
-      fontFamily: 'Noto Sans TC',
       fontWeight: 'bold',
       fontSize: 14,
       lineHeight: 20,
@@ -54,7 +52,6 @@ const styles = StyleSheet.create({
       margin: 10
     },
     noteFooter: {
-      fontFamily: 'Noto Sans TC',
       fontSize: 10,
       alignContent: 'center'
     }

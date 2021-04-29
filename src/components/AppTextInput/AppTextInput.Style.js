@@ -13,7 +13,6 @@ const styles = StyleSheet.create({
     textInput: {
       color: '#0c0c0c',
       fontSize: 14,
-      fontFamily: 'Noto Sans TC',
       width: '90%'
     },
     icon: {marginRight: 10 },

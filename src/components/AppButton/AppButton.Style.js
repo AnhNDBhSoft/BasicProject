@@ -13,7 +13,6 @@ const styles = StyleSheet.create({
       opacity: 0.38
     },
     text: {
-      fontFamily: 'Noto Sans TC',
       fontSize: 20,
       color: 'white',
     },

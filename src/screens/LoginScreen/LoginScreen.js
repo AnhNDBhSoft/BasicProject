@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import {View, Text , Dimensions } from 'react-native';
 
 import Screen from '../../components/Screen/Screen';
 import {AppForm, AppFormField, SubmitBtn} from '../../components/Forms';
 import styles from './LoginScreen.Style'
 import { Header } from 'react-native-elements';
+
+const submit = useCallback(() => (null) ,[]);
 
 function LoginScreen(props) {
     return(
@@ -21,7 +23,7 @@ function LoginScreen(props) {
             <View style={styles.bodyContainer}>
             <AppForm
                 initialValues={{username: '', password: ''}}
-                onSubmit={null}
+                onSubmit={submit}
                 validationSchema={null}>
                 <AppFormField
                     name="username"
